@@ -1,0 +1,25 @@
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
+var N = Number(lines[0]);
+var um = Number(N*1);
+var dois = Number(N*2);
+var tres = Number(N*3);
+var quatro = Number(N*4);
+var quinta = Number(N*5);
+var seis = Number(N*6);
+var sete = Number(N*7);
+var oito = Number(N*8);
+var nove = Number(N*9);
+var dez = Number(N*10);
+
+    console.log("1 x "+ N + " = " + um);
+    console.log("2 x "+ N + " = " + dois);
+    console.log("3 x "+ N + " = " + tres);
+    console.log("4 x "+ N + " = " + quatro);
+    console.log("5 x "+ N + " = " + quinta);
+    console.log("6 x "+ N + " = " + seis);
+    console.log("7 x "+ N + " = " + sete);
+    console.log("8 x "+ N + " = " + oito);
+    console.log("9 x "+ N + " = " + nove);
+    console.log("10 x "+ N + " = " + dez);
